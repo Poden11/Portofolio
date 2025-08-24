@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">MyPortofolio</div>
+    <nav>
+      <ul>
+        <li><a href="#" data-popup="about">About Me</a></li>
+        <li><a href="#" data-popup="services">Services</a></li>
+        <li><a href="#" data-popup="contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-left">
+      <img src="Gambar.jpeg" alt="Profile">
+    </div>
+    <div class="hero-right">
+      <h1>I'm a <span class="highliIght">Full Stack Web Developer</span></h1>
+      <p class="desc">Dari ide jadi website, semua bisa diwujudkan</p>
+    </div>
+  </section>
+
+  <!-- Popup About -->
+  <div class="popup" id="about">
+    <div class="popup-content">
+      <span class="close">&times;</span>
+      <h2>About Me</h2>
+      <p>Ini bagian tentang saya...</p>
+    </div>
+  </div>
+
+  <!-- Popup Services -->
+  <div class="popup" id="services">
+    <div class="popup-content">
+      <span class="close">&times;</span>
+      <h2>Services</h2>
+      <p>Ini bagian services saya...</p>
+    </div>
+  </div>
+
+  <!-- Popup Contact -->
+  <div class="popup" id="contact">
+    <div class="popup-content">
+      <span class="close">&times;</span>
+      <h2>Contact</h2>
+      <p>Ini bagian kontak saya...</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
